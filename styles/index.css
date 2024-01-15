@@ -1,0 +1,244 @@
+/* common shared style */
+/* *{
+    margin: 0;
+    
+} */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.textprimary-color{
+    color: #FD6E0A;
+}
+.btn-primary{
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+}
+/* nav related style */
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,center left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+.nav-tittle{
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+.bannar{
+    display: flex;
+    padding: 30px 30px 0px 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+.bannar-content{
+    max-width: 585px;
+    
+}
+.bannar .profile-img{
+    width: 590px;
+    height: 730px;
+}
+.bannar-greeting{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+}
+.bannar-tittle{
+    margin-top: 5px;
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.bannar-para{
+    margin-top: 0;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+/* Main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About Section */
+.about{
+    margin: 130px 0;
+    padding: 130px 0;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+.section-tittle{
+    text-align: center;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-para{
+    text-align: center;
+    margin: auto;
+    width: 827px;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-tittle{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+.info-para{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+/* what i do section */
+.what-i-do-para{
+    margin: 0 auto;
+    width: 909px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.skills-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+    
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-tittle{
+    color: #181818;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill-para{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* resume related section */
+.resume-tittle{
+    margin: 110px 0 65px;
+}
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+.resume-column-tittle{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-tittle{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.resume-item-institute{
+    color: #757575;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.resume-item-para{
+    margin-top: 0;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+hr{
+    margin: 20px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+/* footer related style */
+footer{
+    display: flex;
+    gap: 110px;
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    padding: 130px 230px;
+}
+.footer-column{
+    width: 50%;
+    
+}
+.footer-tittle{
+    text-align: left;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.contact input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    width: 100%;
+}
+.footer-para{
+    margin: 20px 0 30px;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+.social-links a{
+    margin-right: 20px;
+}
