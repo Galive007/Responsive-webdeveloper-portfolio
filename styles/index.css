@@ -242,3 +242,42 @@ footer{
 .social-links a{
     margin-right: 20px;
 }
+
+/* hide class */
+.hide{
+    display: none;
+}
+
+/* Responsive device units */
+
+@media screen and (max-width: 576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+    .what-i-do-para {
+        width: auto;
+        padding: 30px;
+    }
+    .skill{
+        text-align: center;
+    }
+    .section-tittle {
+        margin-bottom: 0;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .skills-container{
+        flex-direction: column;
+    }
+    .what-i-do-para {
+        width: auto;
+        padding: 30px;
+    }
+    .skill{
+        text-align: center;
+        padding: 30px 142px;
+    }
+    .resume-tittle {
+        margin: 40px;
+    }
+}
